@@ -4,6 +4,6 @@ export const addReminder = (text) => {
     type: ADD_REMINDER,
     text
   }
-  console.log('action in add reminder:', action);
+  console.log('액션:', action);
   return action;
 }
